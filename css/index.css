@@ -1,0 +1,126 @@
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-decoration:none;
+    color:white;
+    font-family: Gothic A1;
+}
+body{
+    width:100%;
+    background:rgba(0, 0, 0, 0.83);
+
+}
+.inner{
+    width:980px;
+    margin:0 auto;
+}
+/* MENU */
+.section--menu{
+    width:100%;
+    height:48px;
+    background:rgba(32, 32, 32, 1);
+    font-size:17px;
+}
+.section--menu .inner{
+    display:flex;
+    justify-content: space-between;
+}
+.section--menu .logo{
+    padding-top:24px;
+    font-size:25px;
+    font-family: 'Bree Serif', serif;
+}
+.section--menu ul{
+    display:flex;
+}
+.section--menu ul:last-child{
+    margin-right:0px;
+}
+.section--menu ul li{
+    margin-right:18px;
+    line-height:48px;
+}
+.section--menu ul li:last-child{
+    margin-right:0px;
+}
+.home{
+    color:#00A3FF;
+}
+.cart{
+    color:#9EDCFF;
+}
+/* mainBig */
+.section--mainBig .inner ul{
+    display:flex;
+    margin-top:95px;
+}
+.section--mainBig .inner ul li{
+    margin-right:20px;
+}
+.section--mainBig ul li img{
+    padding:0;
+    margin:0;
+ width:70px;
+ height:55px;
+}
+.section--mainBig .mainshow{
+    width:860px;
+    height:519px;
+    margin:0 auto;
+}
+.section--mainBig .lBtn img, .section--mainBig .rBtn{
+    margin-right:0;
+}
+.section--mainBig .lBtn img, .section--mainBig .rBtn img{
+    width:50px;
+    height:50px;
+}
+.section--mainBig .glass p{
+    text-align:center;
+    padding-top:21px;
+}
+.section--mainBig .glass img{
+    width:324px;
+    height:210px;
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+
+}
+.section--mainBig .mainshow .arrayBig{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.section--mainBig .addCart{
+    position:relative;
+    top:60px;
+    left:760px;
+    background:#FAFAFA;
+    color: #505050;
+    width:90px;
+    height:39px;
+    border-radius:5px;
+    line-height:36px;
+    text-align:center;
+    font-weight: bold;
+}
+/* Our Product */
+.section--product{
+    padding-top:80px;
+    font-weight: bold;
+    text-align:center;
+    width:650px;
+    height:270px;
+    padding-bottom:100px;
+}
+.section--product ul{
+    padding-top:56px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.section--product ul li img{
+    height:200px;
+}
