@@ -1,0 +1,144 @@
+/* BACK TO HOME */
+.section--content .backTohome{
+    display:flex;
+    align-items:center;
+    margin-top:55px;
+}
+.section--content .backTohome img{
+    width:24px;
+    height:16px;
+    margin-right:5px;
+}
+/* CONTENT */
+.section--content .content{
+    display:flex;
+    justify-content:space-between;
+}
+/* CONTENT IMG */
+.section--content .productImg{
+    width:347px;
+    height:293px;
+    margin-top:28px;
+    margin-left:127px;
+}
+.section--content #glass img{
+    width:275px;
+    height:180px;
+    margin-bottom:35px;
+}
+.section--content .productImg ul{
+    display:flex;
+}
+.section--content .productImg ul li{
+    padding-right:25px;
+}
+.section--content .productImg ul li img{
+    width:99px;
+    height:78px;
+}
+.section--content .textContent{
+    width:319px;
+    height:293px;
+}
+.section--content .textContent span{
+    font-size:16px;
+    line-height:2;
+}
+.section--content .textContent .details{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.section--content .textContent .details-sub{
+    margin-top:10px;
+}
+#price{
+    display:inline-block;
+    width:120px;
+    color:pink;
+    text-decoration: #838383 underline;
+}
+.section--content .details-content{
+    line-height:2;
+}
+.section--content .textContent .buttons{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:28px;
+}
+.section--content .textContent .purchase{
+    width:96px;
+    height:45px;
+    background:white;
+    line-height:43px;
+    text-align:center;
+    color:black;
+    border-radius:7px;
+}
+.section--content .textContent .addCart{
+    width:92px;
+    height:45px;
+    background:gray;
+    line-height: 43px;
+    border-radius:7px;
+    text-align:center;
+}
+/* ad */
+.section--ad{
+    margin-top:213px;
+    height:214px;
+    background:white;
+    width:100%;
+    margin-bottom:157px;
+}
+.section--ad img{
+    height:214px;
+}
+/* hyper link */
+.home a{
+    color:#00A3FF;
+}
+
+.section--lj{
+    width:372px;
+    height:301px;
+    background:white;
+    border-radius:10px;
+    position:absolute;
+    top:300px;
+    left:50%;
+    transform: translateX(-50%);
+    border:3px solid rgba(0, 0, 0, 0.664);
+
+    display:none;
+}
+.section--lj .list{
+    display: flex;
+    justify-content:center;
+
+}
+.section--lj p, .section--lj ul li{
+    color:black;
+    text-align:center;
+    margin-top:29px;
+    margin-bottom:39px;
+    font-weight: bold;
+}
+.section--lj input{
+    width:175px;
+    margin-left:10px;
+    color:black;
+}
+.clickBtn{
+    text-align:center;
+}
+.closingJoin, .closingLogin{
+    margin-left:50px;
+}
+.closingJoin, .closingLogin, #joinBtn, #loginBtn{
+    color:black;
+    cursor:pointer;
+}
+#join, #login{
+    cursor:pointer;
+}

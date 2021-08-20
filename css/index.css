@@ -1,3 +1,9 @@
+ /* link - 아직 클릭하지 않은 경우 red 색상 설정 */
+ a:link { color: none; text-decoration: none;}	
+ /* visited - 한번 클릭하거나 전에 클릭한적 있을 경우 #c71d44 설정 */
+ a:visited { color: none; text-decoration: none;}	
+ /* hover - 마우스를 해당 링크에 위치했을 경우 #006DD7 설정 */
+ a:hover { color: none; text-decoration: none;}
 *{
     padding:0;
     margin:0;
@@ -5,6 +11,7 @@
     text-decoration:none;
     color:white;
     font-family: Gothic A1;
+
 }
 body{
     width:100%;
@@ -123,4 +130,8 @@ body{
 }
 .section--product ul li img{
     height:200px;
+}
+
+#img1,#img2,#img3,#lBtn,#rBtn{
+    cursor:pointer;
 }

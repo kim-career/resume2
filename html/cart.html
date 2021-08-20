@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLEE EYES</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">     
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <script src="../js/cart.js"></script>
+</head>
+<body>
+    <section class="section section--menu">
+        <div class="inner">
+            <ul>
+                <li class="home"><a href="../index.html">Home</a></li>
+                <li class="cart">Cart</li>
+            </ul>
+            <div class="logo">GLEE EYES</div>
+            <ul>
+                <li class="join" id="join">가입</li>
+                <li class="login" id="login">로그인</li>
+            </ul>
+        </div>
+    </section>
+    <section class="section section--content inner">
+        <a href="../index.html"><div class="backTohome"><img src="../imgs/back.png" alt="back"><p>Back to Home</p></div></a>
+        <div class="content">
+        <div class="productImg">
+            <div id="glass"><img src="../imgs/glass1_0.png" alt="bigimg"></div>
+            <ul>
+                <li id="img1"><img src="../imgs/glasses1-1.png" alt="smallImg1"></li>
+                <li id="img2"><img src="../imgs/glasses1-2.png" alt="smallImg2"></li>
+                <li id="img3"><img src="../imgs/glasses1-3.png" alt="smallImg3"></li>
+            </ul>
+        </div>
+        <div class="textContent">
+            <span>FRAME: <br />
+                Eyeglasses Cut From Sheet Metal <br />
+                to Reduce Waste</span>
+            <div class="details">
+                <ul class="details-sub">
+                    <li><span>Price</span></li>
+                    <li><span>Add lens</span></li>
+                    <li><span>Sun Shield</span></li>
+                    <li><span>Special Treatment</span></li>
+                </ul>
+                <form action="">
+                    <ul class="details-content">
+                        <li id="price">256.2$</li>
+                        <li><label for="addLens"><input id="addLens" type="checkbox" name="datails"></label></li>
+                        <li><label for="sunShield"><input id="sunShield" type="checkbox"></label></li>
+                        <li>
+                            <select name="special" class="spe" style="background:#000; color:white;">
+                                <option>추가 없음</option>
+                                <option value="자외선차단">자외선 차단</option>
+                                <option value="적외선차단">적외선 차단</option>
+                                <option value="블루라이트차단">블루라이트 차단</option>
+                            </select>
+                        </li>
+                    </ul>    
+                </form>
+            </div>
+            <div class="buttons">
+                <button type="submit" class="purchase">Purchase</button>
+                <button type="submit" class="addCart">Add Cart</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="section section--ad">
+        <div class="add inner"><img src="../imgs/광고.png" alt="ad"></div>
+    </section>
+
+
+    <section class="section section--lj" id="popupJ">
+        <p>회원가입</p>
+        <div class="sign-up list">
+            <ul>
+                <li>ID</li>
+                <li>PW</li>
+            </ul>
+            <ul>
+                <li>
+                    <input type="text" placeholder="input Id">
+                </li>
+                <li>
+                    <input type="password" placeholder="input password">
+                </li>
+            </ul>
+        </div>
+        <div class="clickBtn">
+            <span id="joinBtn">회원가입</span>
+            <span class="closingJoin">닫기</span>
+        </div>
+    </section>
+    <section class="section section--lj" id="popupL">
+        <p>로그인</p>
+        <div class="sign-in list">
+            <ul>
+                <li>ID</li>
+                <li>PW</li>
+            </ul>
+            <ul>
+                <li>
+                    <input type="text" placeholder="input Id">
+                </li>
+                <li>
+                    <input type="password" placeholder="input password">
+                </li>
+            </ul>
+        </div>
+        <div class="clickBtn">
+            <span id="loginBtn">로그인</span>
+            <span class="closingLogin">닫기</span>
+        </div>
+    </section>
+</body>
+</html>
